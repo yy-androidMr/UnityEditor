@@ -1,0 +1,8 @@
+#@All代表所有配置都显示.
+LogLevel
+TestAppVer
+TestResVer
+NoUpdate
+EnableLogWrapper
+OpenNewGuide
+OpenHotFix

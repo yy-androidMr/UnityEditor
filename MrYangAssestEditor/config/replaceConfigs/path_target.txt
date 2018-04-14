@@ -1,0 +1,11 @@
+serverPath
+dir[gve:]
+
+clientPath
+file[office.xml:]
+file[client_config.xml:]
+----------------------------------end
+#dir代表这是个文件夹. []代表路径对应格式. 
+#:代表分割符,冒号前面的是存放路径,后面的是要替换的路径.后面如果不写,代表同样名字
+#serverPath代表是服务器根目录开始:exe\resources\config\server\
+#clientPath代表客户端根目录开始:Resources\ResourcePublish\CDN\SourceFiles\crossplatform\

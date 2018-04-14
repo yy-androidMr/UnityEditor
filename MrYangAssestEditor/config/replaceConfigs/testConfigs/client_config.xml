@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by tom (tom) -->
+<ClientConfig>
+	<!--<GameServer ip="172.17.100.132" port="32010" />-->
+	<GameServer ip="127.0.0.1" port="32010" />
+	<!-- DEBUG INFO WARNING ERROR PROFILE NOLOG-->
+		<LogLevel>NOLOG</LogLevel>
+	<ShowDummy>false</ShowDummy>
+	<UseCpuTime>true</UseCpuTime>
+	<RibbonPointCount>96</RibbonPointCount>
+	<OpenMSDK>true</OpenMSDK>
+	<EnableTLog>true</EnableTLog>
+	<TestAppVer>0.1.0</TestAppVer>
+	<TestResVer>0.1</TestResVer>
+	<UseAb>true</UseAb>
+	<NoUpdate>true</NoUpdate>
+	<EnableLogWrapper>true</EnableLogWrapper>
+	<ForceUnloadAfterSetAvatar>true</ForceUnloadAfterSetAvatar>
+	<DisableGarden>false</DisableGarden>
+	<OpenNewGuide>false</OpenNewGuide>
+	<OpenLightTest>false</OpenLightTest>
+	<OpenHotFix>false</OpenHotFix>
+	<OpenAnimation>true</OpenAnimation>
+	<InjectCode>NONE</InjectCode>
+	<!--Bugly上报日志类型：0~Log, 1~LogDeug, 2~LogInfo, 3~LogWarning, 4~LogAssert, 5~LogError, 6~LogException -->
+	<BuglyLogLevel>6</BuglyLogLevel>
+	<UnloadPicTimes>5</UnloadPicTimes>
+	<FaceRotateDragFactor>10</FaceRotateDragFactor>
+	<lbsloadlocalpos>true</lbsloadlocalpos>
+</ClientConfig>

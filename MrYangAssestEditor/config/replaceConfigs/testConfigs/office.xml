@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Office>
+	<FirstInTips>  <!--第一次进入的时候提示的tips内容，是之前的需求，现在没有用，此配置可以忽略-->
+		<Tips content="嗨,{GamerName}，你终于来了，在下已经等候你多时了。"/>
+	</FirstInTips>
+	
+	<RandomTips>   <!--点击闯关npc的头弹出的泡泡，从下面的条数中random出一条进行显示-->
+		<Tips content="在下最喜欢的模式吗？那当然是星动模式了！"/>
+		<Tips content="欢迎回来，今天请继续努力吧！"/>
+		<Tips content="女朋友？在下还是单身。"/>
+	</RandomTips>
+	
+	<InGuideTips>  <!--引导中npc弹出的泡泡此条-->
+		<Tips content="新人，准备好迎接挑战了吗？"/>
+	</InGuideTips>
+</Office>

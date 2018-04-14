@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad129fc72fcdd54e836aa18035e1eee, type: 3}
+  m_Name: CDNResourceMoveConfig
+  m_EditorClassIdentifier: 
+  pathListInHide: 0
+  pathList:
+  - F:/p4_workspace/DGM/x5_mobile/mobile_dancer/trunk/client/experience
+  - F:/p4_workspace/DGM/x5_mobile/mobile_dancer/trunk/client
+  - F:/p4_workspace/DGM/x5_mobile/mobile_dancer/trunk/client/Robot
+  - F:/p4_workspace/DGM/x5_mobile/mobile_dancer/trunk/client/Temp
+  - F:/p4_workspace/DGM/x5_mobile/mobile_dancer/trunk/client/player_output
+  roleTexture:
+    src:
+    - path: F:/p4_workspace/DGM/x5_mobile/mobile_dancer/trunk/client/Temp
+      enable: 0
+      widget: 1
+    - path: F:/p4_workspace/DGM/x5_mobile/mobile_dancer/trunk/client
+      enable: 0
+      widget: 1
+    desc:
+    - path: F:/p4_workspace/DGM/x5_mobile/mobile_dancer/trunk/client/Temp
+      enable: 0
+      widget: 1
+    - path: F:/p4_workspace/DGM/x5_mobile/mobile_dancer/trunk/client/player_output
+      enable: 0
+      widget: 1
+    revertAction: 0
+    isMove: 1
+    idcList: 0016000201
+  checkPoint:
+    src:
+    - path: "G:/cache/test/\u5E93\u5B58\u5173\u5361"
+      enable: 1
+      widget: 1
+    - path: G:/cache/test/desc2
+      enable: 1
+      widget: 1
+    desc:
+    - path: G:/cache/test/desc4
+      enable: 1
+      widget: 0
+    - path: G:/cache/test/desc3
+      enable: 1
+      widget: 1
+    revertAction: 0
+    isMove: 0
+    idList: 100035 100097 100164 100214
+  cdnTexture:
+    src:
+    - path: F:\p4_workspace\DGM\x5_mobile\mobile_dancer_resource\Branches2\1.3.0\ResourcePublish\CDN\SourceFiles
+      enable: 1
+      widget: 0
+    - path: F:\p4_workspace\DGM\x5_mobile\mobile_dancer_resource\Resources\ResourcePublish\CDN\SourceFiles
+      enable: 1
+      widget: 0
+    artSrc:
+    - path: "F:\\p4_workspace\\DGM\\x5_mobile\\mobile_dancer_resource\\Branches2\\1.3.0\\\u7F8E\u672F\u8D44\u6E90\\UI\\\u56FE\u6807"
+      enable: 1
+      widget: 0
+    - path: "F:\\p4_workspace\\DGM\\x5_mobile\\mobile_dancer_resource\\Resources\\\u7F8E\u672F\u8D44\u6E90\\UI\\\u56FE\u6807"
+      enable: 1
+      widget: 0
+    iconList: 'huodong_zhongqiujieyouli_bg loading_back_chunjie chunjie_bg sc_ad_tianshi
+      huodong_zhongqiujiezhuti_bg CRLD_bg01 sc_ad_moyun JRFB_chunri_bg JRFB_chunri_bg
+      sc_ad_jiguang1 HD_yiqitiaowu JRFB_xuanwu_bg sc_ad_taxue houdong_shenglingnan_bg
+      JRFB_zhongqiu_bg sc_ad_feiyi houdong_shenglingnv_bg LJDL_bg sc_ad_jiguang2 huodong_chibang
+      ZWGC_bg huodong_chunjietiaowu_bg huodong_chunrijie_bg huodong_crld01_bg huodong_crld02_bg
+      huodong_dieyingtao_bg huodong_dieyingtaonan_bg huodong_jiguang01nan_bg huodong_jiguang01nv_bg
+      huodong_jiguang02nan_bg huodong_jiguang02nv_bg huodong_lefantian_bg huodong_leiji01_bg
+      huodong_leiji02_bg huodong_leiji03_bg huodong_leiji04_bg huodong_leijichongzhiyinghaoli_bg
+      huodong_leijichongzhiyinghaolinan_bg huodong_lianxuling01_bg huodong_lianxuling02_bg
+      huodong_moyunguzhuang_bg huodong_moyunguzhuangnan_bg huodong_moyun_t huodong_shengling_t
+      huodong_shimotao_bg huodong_shimotaonan_bg huodong_shipinbaoxiangremai_bg huodong_shipinlihe_t
+      huodong_xianshileichong_nan huodong_xianshileichong_nv huodong_xinchunfudai_bg
+      huodong_xindongqingrenjie_bg huodong_xuanwujieyouli_bg huodong_xunmeilibao_bg
+      huodong_xunmeilibaonan_bg huodong_xunmeilihe_t huodong_yingyu_t huodong_yingyunan_bg
+      huodong_yingyunv_bg huodong_yimeng_t huodong_yimengnan_bg huodong_yimengnv_bg '

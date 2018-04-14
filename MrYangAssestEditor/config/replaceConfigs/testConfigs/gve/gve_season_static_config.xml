@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<!--此配置为多人pve房间内的，服务器上的静态配置，修改后要重启服务器，谨慎配置，谨慎修改！！！-->
+
+<config>
+
+
+	<gve_chapter_extract_rule>
+
+		<!--chapter_id 每个赛季关卡id，不能重复-->
+		<!--star_min: 抽取的歌曲星级下限  star_max:抽取的歌曲星级上限-->
+		<!--mode 抽取的歌曲模式要求  只能配指定值！！！  3-星动模式  13-弹球模式  14-泡泡模式  4-传统模式-->
+		
+		<chapter_item>
+			<chapter_id>1</chapter_id>
+			<song_require  star_min="1" star_max="3"  mode="3"  />
+		</chapter_item>
+
+		<chapter_item>
+			<chapter_id>2</chapter_id>
+			<song_require  star_min="4" star_max="6"  mode="3"  />
+		</chapter_item>
+
+		<chapter_item>
+			<chapter_id>3</chapter_id>
+			<song_require  star_min="1" star_max="3"  mode="13"  />
+		</chapter_item>
+
+		<chapter_item>
+			<chapter_id>4</chapter_id>
+			<song_require  star_min="4" star_max="6"  mode="13"  />
+		</chapter_item>
+
+		<chapter_item>
+			<chapter_id>5</chapter_id>
+			<song_require  star_min="1" star_max="3"  mode="14"  />
+		</chapter_item>
+
+		<chapter_item>
+			<chapter_id>6</chapter_id>
+			<song_require  star_min="1" star_max="3"  mode="4"  />
+		</chapter_item>
+		
+	</gve_chapter_extract_rule>
+
+	<!--每首歌被一个赛季抽到后，后续连续X个赛季不会再被抽到，下面的配X值-->
+	<gve_song_extract_season_interval>3</gve_song_extract_season_interval>
+
+	<!--gve活动房间，开局要求的最小人数-->
+	<gve_game_player_min_limit>1</gve_game_player_min_limit>
+
+	<!--gve活动房间，开局要求的最大人数-->
+	<gve_game_player_max_limit>4</gve_game_player_max_limit>
+	
+	<!--gve赛季排行榜上，上榜人数值，该值需要与gve_season_dynamic_config.xml中的排行榜奖池保持一致-->
+	<gve_top_rank_player_num>100</gve_top_rank_player_num>
+</config>                                                                                                                                                                                                              
