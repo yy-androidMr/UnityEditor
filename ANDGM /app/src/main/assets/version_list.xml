@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+	<!--点击进入游戏, 访问version服务器的时间间隔-->
+	<access_version_interval>5</access_version_interval>
+	
+	<!--version 服务器列表-->
+	<servers>
+		<server ip=%1$s port="33018"/>
+	</servers>
+</config>
